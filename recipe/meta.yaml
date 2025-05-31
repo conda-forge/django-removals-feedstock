@@ -1,5 +1,5 @@
 {% set name = "django-removals" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_removals-{{ version }}.tar.gz
-  sha256: 3f264d2dcf1d548d01405a29901bed0d70caab801388e49402adf02282539aa0
+  sha256: fdb63ce1278c4bb4c30c787f21713444560e222166a626e46894d0677afcb2bd
 
 build:
   noarch: python
