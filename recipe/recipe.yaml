@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: django-removals
   version: "1.5.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -25,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - django >=4.2
+    - django >=5.2
 
 tests:
   - python:
