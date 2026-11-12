@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-removals
-  version: "1.5.1"
+  version: "1.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_removals-${{ version }}.tar.gz
-  sha256: 3637d4fdb64f6cfe7abc591165a4fa0970cbc1363e57bbb0df3fd6b3c11e9177
+  sha256: ecdbe49c58987b3218f58c4711f740fb08a7de96bc43d4aaceaea6d70947267a
 
 build:
   number: 0
